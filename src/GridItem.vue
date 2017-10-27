@@ -326,10 +326,10 @@
                 if (this.resizable) {
                     var opts = {
                         preserveAspectRatio: false,
-                        edges: {left: false, right: true, bottom: true, top: false},
+                        edges: {left: true, right: true, bottom: true, top: true},
                         ignoreFrom: this.resizeIgnoreFrom
                     };
-                    
+
                     this.interactObj.resizable(opts);
                     if (!this.resizeEventSet) {
                         this.resizeEventSet = true;
