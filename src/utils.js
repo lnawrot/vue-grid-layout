@@ -162,7 +162,7 @@ export function correctBounds(layout: Layout, bounds: {cols: number}): Layout {
  */
 export function getLayoutItem(layout: Layout, id: string): ?LayoutItem {
   for (let i = 0, len = layout.length; i < len; i++) {
-    if (layout[i].id === id) return layout[i];
+    if (layout[i].i === id) return layout[i];
   }
 }
 
